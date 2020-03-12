@@ -46,7 +46,7 @@ module.exports = {
       resolve: "gatsby-plugin-eslint",
       options: {
         test: /\.js$|\.jsx$/,
-        exclude: /(node_modules|.cache|public)/,
+        exclude: /(node_modules|.cache|public|static)/,
         stages: ["develop"],
         options: {
           emitWarning: true,
@@ -54,6 +54,7 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-netlify-cms`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
