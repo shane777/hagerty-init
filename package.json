@@ -4,7 +4,7 @@
   "description": "hagerty",
   "version": "0.1.0",
   "dependencies": {
-    "gatsby": "^2.19.7",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-manifest": "^2.2.39",
     "gatsby-plugin-netlify-cms": "^4.1.41",
